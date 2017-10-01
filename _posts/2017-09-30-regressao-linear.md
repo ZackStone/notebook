@@ -8,4 +8,4 @@ language: br
 summary: Breve descrição sobre o post de regressão linear
 ---
 
-
+http://www.facom.ufu.br/~backes/pgc204/Aula06-Regressao.pdf
