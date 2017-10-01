@@ -12,3 +12,23 @@
 .table-wrapper {
     overflow-x: auto;
 }
+
+
+
+
+
+#markdown-toc {
+    // border: 1px solid #aaa;
+    // padding: 1.5em;
+    // display: inline-block;
+}
+
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "Conteúdo";
+    font-weight: bold;
+}
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+}
