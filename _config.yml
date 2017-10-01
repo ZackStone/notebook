@@ -19,7 +19,7 @@ github_username:  YitzhakAndrade
 
 # Build settings
 markdown: kramdown
-permalink: :year/:month/:day/:title
+permalink: notebook/:year/:month/:day/:title
 # highlighter: pygments
 gems:
   - jekyll-feed
