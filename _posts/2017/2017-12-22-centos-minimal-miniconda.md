@@ -50,7 +50,7 @@ proxy=http://host:porta
 
 Instalar o pacote wget.
 ```shell
-$ sudo yum install wget
+$ yum install wget
 ```
 
 Setar configuração de proxy do wget.
@@ -71,7 +71,7 @@ $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 Instalar o pacote bzip2, necessário para a instalação do Miniconda.
 ```shell
-$ sudo wget install bzip2
+$ yum install bzip2
 ```
 
 
@@ -80,7 +80,30 @@ Instalar o Miniconda.
 $ bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Ao pedir para adicionar a pasta em que foi instalado na variável de sistema PATH, escolha "yes".
+Ao pedir para adicionar a pasta em que foi instalado na variável de sistema PATH, escolha "no".
+
+
+Instalar o pacote epel-release
+```shell
+$ yum install epel-release
+```
+
+
+Instalar e atualizar o gerenciador de pacotes do python (pip)
+```shell
+$ yum install python-pip
+$ pip install upgrade pip
+```
+
+
+
+
+
+
+
+
+
+
 
 
 Faça logoff e entre novamente no sistema ou recarregue as variáveis de ambiente.
@@ -93,6 +116,8 @@ $ conda -V
 Deverá mostrar a versão que foi instalada.
 
 
+
+
 # Referências
 
 - [CentOS](https://www.centos.org)
@@ -100,3 +125,4 @@ Deverá mostrar a versão que foi instalada.
 - [Viva o Linux - Configuração do yum com proxy no CentOS](https://www.vivaolinux.com.br/dica/Configuracao-do-yum-com-proxy-no-CentOS)
 - [Stack Overflow - Setting proxy in wget](https://stackoverflow.com/questions/11211705/setting-proxy-in-wget)
 - [LinuxPitStop - How to install Anaconda / Miniconda / Conda on Linux (Ubuntu, CentOS, Fedora)](http://linuxpitstop.com/install-anaconda-miniconda-conda-on-ubuntu-centos-linux/)
+- [EPEL - How can I use these extra packages?](https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F)
