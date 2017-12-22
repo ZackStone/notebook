@@ -22,16 +22,18 @@ $ sudo su
 
 Adicionar o usuário na lista de 'sudoers', para permitir executar comandos 'sudo'.
 
-`/etc/sudoers`
+Arquivo `/etc/sudoers`:
 ```
 user    ALL=(ALL)    ALL
 ```
+* 'user' é o nome do usuário usuado no SO.
 
 ```
 $ exit
 ```
 
 Setar configuração de proxy do sistema.
+
 Arquivo `/etc/environment`:
 ```
 http_proxy="http://host:porta"
@@ -40,6 +42,7 @@ https_proxy="http://host:porta"
 
 
 Setar configuração de proxy do yum.
+
 Arquivo `/etc/yum.conf`:
 ```
 proxy=http://host:porta
@@ -51,6 +54,7 @@ $ sudo yum install wget
 ```
 
 Setar configuração de proxy do wget.
+
 Arquivo `/etc/wgetrc`:
 ```
 http_proxy = http://host:porta
