@@ -21,7 +21,8 @@ $ sudo su
 ```
 
 Adicionar o usuário na lista de 'sudoers', para permitir executar comandos 'sudo'.
-Arquivo `/etc/sudoers`:
+
+`/etc/sudoers`
 ```
 user    ALL=(ALL)    ALL
 ```
