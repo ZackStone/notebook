@@ -12,15 +12,16 @@ summary: Instruções para instalação do Miniconda numa máquina virtual CentO
 {:toc}
 
 
-- Versão do SO utilizada: CentOS-7-x86_64-Minimal-1708
-- Configuração do adaptador de rede da máquina virtual: Modo NAT
+- Versão do SO utilizada: CentOS-7-x86_64-Minimal-1708.
+- Configuração do adaptador de rede da máquina virtual: Modo NAT.
 
 
 ```
 $ sudo su
 ```
 
-Adicionar o usuário na lista de 'sudoers', para permitir executar comandos 'sudo' (arquivo `/etc/sudoers`)
+Adicionar o usuário na lista de 'sudoers', para permitir executar comandos 'sudo'.
+Arquivo `/etc/sudoers`:
 ```
 user    ALL=(ALL)    ALL
 ```
@@ -29,24 +30,27 @@ user    ALL=(ALL)    ALL
 $ exit
 ```
 
-Setar configuração de proxy do sistema (arquivo `/etc/environment`)
+Setar configuração de proxy do sistema.
+Arquivo `/etc/environment`:
 ```
 http_proxy="http://host:porta"
 https_proxy="http://host:porta"
 ```
 
 
-Setar configuração de proxy do yum (arquivo `/etc/yum.conf`)
+Setar configuração de proxy do yum.
+Arquivo `/etc/yum.conf`:
 ```
 proxy=http://host:porta
 ```
 
-Instalar o pacote wget
+Instalar o pacote wget.
 ```shell
 $ sudo yum install wget
 ```
 
-Setar configuração de proxy do wget (arquivo `/etc/wgetrc`)
+Setar configuração de proxy do wget.
+Arquivo `/etc/wgetrc`:
 ```
 http_proxy = http://host:porta
 https_proxy = http://host:porta
