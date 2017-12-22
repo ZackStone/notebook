@@ -75,6 +75,24 @@ $ sudo wget install bzip2
 ```
 
 
+Instalar o Miniconda.
+```shell
+$ bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Ao pedir para adicionar a pasta em que foi instalado na variável de sistema PATH, escolha "yes".
+
+
+Faça logoff e entre novamente no sistema ou recarregue as variáveis de ambiente.
+
+
+Testar se a instalação ocorreu com sucesso.
+```shell
+$ conda -V
+```
+Deverá mostrar a versão que foi instalada.
+
+
 # Referências
 
 - [CentOS](https://www.centos.org)
