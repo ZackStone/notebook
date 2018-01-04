@@ -36,3 +36,4 @@ $ make install
 # Referências
 
 - [Stack Overflow - How to install older R version on CentOS](https://stackoverflow.com/questions/37769985/how-to-install-older-r-version-on-centos)
+- [Stack Overflow](https://stackoverflow.com/questions/17473547/error-with-readline-yes-default-and-headers-libs-are-not-available)
