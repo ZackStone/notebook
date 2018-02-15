@@ -2,4 +2,4 @@
 
 Run: `jekyll serve`
 
-[Yitzhak's Notebook](https://YitzhakAndrade.github.io/Notebook)
+[Yitzhak's Notebook](https://yitzhakandrade.github.io/notebook)
