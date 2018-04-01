@@ -11,6 +11,8 @@ summary: Instalação do Miraclecast no Mint 18.3.
 * Do not remove this line (it will not be displayed)
 {:toc}
 
+# Passo a passo
+
 Não consegui instalar.
 
 ```shell
@@ -40,7 +42,7 @@ $ tar -xvzf readline-7.0.tar.gz
 
 $ cd readline-7.0
 $ ./configure
-make
+$ make
 $ sudo make install
 
 # mesmo rodando "sudo ldconfig", o erro persiste...

@@ -12,6 +12,8 @@ summary: Publicação de pacotes no npm.
 {:toc}
 
 
+# Passo a passo
+
 - Criar o arquivo `.npmignore`, caso queira ignorar algum arquivo na publicação.
   - Se um arquivo existe no `.gitignore`, mas não existe no `.npmignore`, então ele será publicado.
 
