@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Configurar repositório NPM privado"
-date:   2018-07-03 10:40:00 -0300
+date:   2018-10-04 14:00:00 -0300
 categories: dev npm
 tags: npm nexus
 language: br
