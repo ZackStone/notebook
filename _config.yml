@@ -7,7 +7,6 @@
 
 # Site settings
 title: Yitzhak's Notebook
-email: andrade@hotmail.com.br
 description: > # this means to ignore newlines until "baseurl:"
   Este site foi criado para registrar anotações sobre estudos diversos.
   Sinta-se a vontade para comentar e discutir suas ideias.
@@ -15,6 +14,7 @@ baseurl: "/notebook" # the subpath of your site, e.g. /blog
 url: "https://YitzhakAndrade.github.io/notebook" # the base hostname & protocol for your site
 twitter_username: YitzhakAndrade
 github_username:  YitzhakAndrade
+medium_username:  YitzhakAndrade
 
 # Build settings
 markdown: kramdown
